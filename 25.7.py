@@ -4,4 +4,4 @@ total=0;
 for value in maria.values():
 	total+=value;
 average=(total/size);
-print(average);
+print('평균:%0.2f' %average);
