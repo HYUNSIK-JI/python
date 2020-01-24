@@ -1,0 +1,7 @@
+class person:
+	def __init__(self):
+		self.hello='안녕하세요.'
+	def greeting(self):
+		print(self.hello)
+james=person()
+james.greeting()
